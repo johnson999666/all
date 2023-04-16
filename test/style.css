@@ -1,0 +1,218 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+  }
+  html, body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    
+  }
+  
+
+  .title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: red;
+    background-image: url('keys.jpg');
+        background-size: cover;
+        background-position: center;
+  }
+#title {
+    font-size: 2em;
+    margin-bottom: 1em;
+    background-color: #2196f3;
+  }
+  p {
+    font-size: 1.2em;
+    margin-bottom: 1em;
+    background-color: bisque;
+  }
+ 
+
+  .flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    
+  }
+  
+  .flex-item {
+    flex: 1 0 30%;
+    margin: 10px;
+    padding: 10px;
+    background-color: red;
+    
+  }
+  
+  ul {
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  
+  li {
+    list-style-type: disc;
+  }
+  
+  .flexbox-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .parent {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .child {
+    flex: 0 0 200px;
+    height: 200px;
+    margin: 10px;
+    background-color: #f2f2f2;
+  }
+
+.b {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: right;
+    align-items: right;
+}
+
+#name{
+    text-align: right;
+}
+#jl {
+    border-radius: 50%;
+    height: 25px;
+    width: 25px;
+    
+       
+}
+.c {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.me {
+    height: 25vh;
+    width: 25vh;
+    background-color: #ddddff;
+}
+.d {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+#bio {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+
+
+.e {
+    display: flex;
+    
+    justify-content: center;
+    align-items: center;
+}
+#list {
+    text-align: left;
+}
+.js {
+    height: 25px;
+    width: 25px;
+}
+.python {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-color: #ddddff;
+}
+
+.react {
+    height: 30px;
+    width: 35px;
+    background-color: #ddddff;
+}
+.f {
+    display: flex;
+    
+    justify-content: center;
+    align-items: center;
+}
+.g {
+    display: flex;
+    
+    justify-content: center;
+    align-items: center;
+}
+.title-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200vh; /* set height as required */
+  }
+  
+  .title {
+    text-align: center;
+    height: 200vh;
+  }
+  .skills-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #ddddff;
+  padding: 20px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  margin-bottom: 10px;
+}
+.home {
+  position: fixed;
+  background-color: grey;
+}
+footer {
+    
+  display: flex;
+  justify-content: center; /* horizontally center the child elements */
+  align-items: center;
+  background-color: white;
+}
+h2 {
+  font-size: 2em; /* Increase font size */
+  font-weight: bold; /* Make font bold */
+  text-align: center; /* Center the text */
+  text-transform: uppercase; /* Convert text to uppercase */
+  letter-spacing: 0.1em; /* Add letter spacing */
+  color: #333; /* Change text color */
+  margin-top: 50px; /* Add top margin */
+  margin-bottom: 20px; /* Add bottom margin */
+  line-height: 1.2; /* Increase line height */
+  background-color: #ddddff;
+}
+
+h1 {
+  font-size: 4rem;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
