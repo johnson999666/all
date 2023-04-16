@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style1.css" rel="stylesheet" type="text/css" />
+ 
+
+    <title>Python</title>
+    
+</head>
+<body>
+        <div class="title"><h1 id="title">JAVASCRIPT</h1></div>
+
+
+    
+        <style>
+            /* Set the initial position of the text */
+            .fly-in-text {
+              position: absolute;
+              left: -200px;
+              font-size: 24px;
+              font-weight: bold;
+            }
+        
+            /* Define the animation */
+            @keyframes flyin {
+              from {
+                left: -200px;
+              }
+              to {
+                left: 50%;
+              }
+            }
+        
+            /* Apply the animation to the text */
+            .fly-in-text {
+              animation: flyin 1s ease forwards;
+              text-align: center;
+              left: 50%;
+              transform: translateX(-50%);
+              position: relative;
+    z-index: 9999;
+            }
+            
+            /* Center the title */
+            body {
+              text-align: center;
+            }
+          </style>
+         
+          
+          <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+        
+        </head>
+        <body>
+        
+          <div class="fly-in-text">By: James Leppo</div>
+        
+          <script>
+            $(document).ready(function() {
+              console.log('Document ready!');
+              $(window).scroll(function() {
+                console.log('Window scrolled!');
+                $('.fly-in-text').each(function() {
+                  console.log('Element found!');
+                  var bottom_of_object = $(this).offset().top + $(this).outerHeight();
+                  var bottom_of_window = $(window).scrollTop() + $(window).height();
+                  if (bottom_of_window > bottom_of_object) {
+                    console.log('Element in view!');
+                    $(this).addClass('active');
+                  }
+                });
+              });
+            });
+          </script>
+          <style>
+            #spin {
+              animation-name: spin;
+              animation-duration: 4s;
+              animation-iteration-count: 1;
+              animation-timing-function: ease-in-out;
+              animation-fill-mode: forwards;
+            }
+            
+            @keyframes spin {
+              0% {
+                transform: rotate(0deg);
+              }
+              100% {
+                transform: rotate(360deg);
+              }
+            }
+          </style>
+          
+          <style>
+            .blur {
+              filter: blur(5px);
+              transition: filter 1s ease-in-out;
+            }
+
+            @keyframes typing {
+    from {
+      width: 0
+    }
+  
+    to {
+      width: 100%
+    }
+  }
+ 
+  #pulse {
+    animation: pulse 1s ease-out infinite;
+  }
+  
+  @keyframes pulse {
+    0% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.05);
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
+ 
+  
+  #spin-scale {
+    transform: scale(0);
+  }
+
+  .my-animation {
+    animation: spin-scale 1s ease-in-out forwards;
+    opacity: 1;
+    transform: scale(0);
+    transition: opacity 0.5s ease-in-out, transform 0.5s ease-in-out;
+  }
+
+  @keyframes spin-scale {
+    0% {
+      transform: scale(0);
+    }
+    50% {
+      transform: scale(1.2) rotate(360deg);
+    }
+    100% {
+      transform: scale(1) rotate(720deg);
+    }
+  }
+  
+</style>
+
+
+          
+         
+          
+         
+           
+          
+         
+          
+
+        <div class="main">
+            <div class="children" id="child1" class="typing"></div>
+            <div class="children" id="spin">Python is a popular high-level programming language known for its simplicity and ease of use. Its vast array of libraries and frameworks makes it suitable for various tasks, including web development, data analysis, scientific computing, and artificial intelligence.</div>
+            <div class="children" id="my-text">Python is a popular high-level programming language known for its simplicity and ease of use. Its vast array of libraries and frameworks makes it suitable for various tasks, including web development, data analysis, scientific computing, and artificial intelligence.</div>
+            <div class="children" id="pulse">Python is a popular high-level programming language known for its simplicity and ease of use. Its vast array of libraries and frameworks makes it suitable for various tasks, including web development, data analysis, scientific computing, and artificial intelligence.</div>
+            <div class="children" id="spin-scale">Python is a popular high-level programming language known for its simplicity and ease of use. Its vast array of libraries and frameworks makes it suitable for various tasks, including web development, data analysis, scientific computing, and artificial intelligence.</div>
+
+
+
+
+            <div class="children">Python is a popular high-level programming language known for its simplicity and ease of use. Its vast array of libraries and frameworks makes it suitable for various tasks, including web development, data analysis, scientific computing, and artificial intelligence.</div>
+            <div class="children">Python is a popular high-level programming language known for its simplicity and ease of use. Its vast array of libraries and frameworks makes it suitable for various tasks, including web development, data analysis, scientific computing, and artificial intelligence.</div>
+            <div class="children">Python is a popular high-level programming language known for its simplicity and ease of use. Its vast array of libraries and frameworks makes it suitable for various tasks, including web development, data analysis, scientific computing, and artificial intelligence.</div>
+            
+        </div>
+        <script>
+          const observer = new IntersectionObserver(entries => {
+            entries.forEach(entry => {
+              if (entry.isIntersecting) {
+                entry.target.classList.add('my-animation');
+              } else {
+                entry.target.classList.remove('my-animation');
+              }
+            });
+          });
+        
+          const element = document.getElementById('spin-scale');
+          observer.observe(element);
+        </script>
+        
+        
+             
+        <script>
+            // Get the text element
+            const text = document.getElementById('my-text');
+            
+            // Set a timer to add the blur class after 4 seconds
+            setTimeout(() => {
+              text.classList.add('blur');
+            }, 4000);
+            
+            // Set a timer to remove the blur class after 8 seconds
+            setTimeout(() => {
+              text.classList.remove('blur');
+            }, 8000);
+          </script>
+
+  <script>
+    const words = ["Python ", "is ", "a ", "popular ", "high-level ", "programming ", "language ", "known ", "for ", "its ", "simplicity ", "and ", "ease ", "of ", "use. ", "Its ", "vast ", "array ", "of ", "libraries ", "and ", "frameworks ", "make ", "it ", "suitable ", "for ", "various ", "tasks."];
+
+    function typeWriter(words, i, j, delay) {
+      if (i < words.length) {
+        if (j < words[i].length) {
+          document.getElementById("child1").innerHTML += words[i].charAt(j);
+          j++;
+          setTimeout(function() { typeWriter(words, i, j, delay); }, delay);
+        } else {
+          
+          i++;
+          j = 0;
+          setTimeout(function() { typeWriter(words, i, j, delay); }, delay);
+        }
+      }
+    }
+
+    typeWriter(words, 0, 0, 100);
+  </script>
+
+
+<script src="index.js"></script>
+    
+</body>
+</html>

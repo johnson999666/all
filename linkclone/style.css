@@ -1,0 +1,242 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    background-color: #F0EAD6;
+  
+  }
+html, body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+
+}
+
+.square {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+
+}
+
+#square {
+    width: 80%;
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+.me {
+
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+      }
+      
+.content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}    
+
+#content {
+    width: 50%;
+    height: 80%;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+.search-form {
+    display: flex;
+    align-items: center;
+    width: 90%;
+    height: 40px;
+    
+    border-radius: 20px;
+   
+   
+  }
+  
+  input[type="text"] {
+    flex: 1;
+    border: none;
+    outline: none;
+    font-size: 16px;
+  }
+  
+  button {
+    background-color: transparent;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  .photo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+  }
+  #photo {
+    width: 5%;
+    height: 5%;
+  }
+  .photo {
+    display: flex;
+    
+    align-items: center;
+    justify-content: center;
+  }
+  
+  #photo {
+    
+    margin-top: 10px; /* add some margin to separate the icon from the profile picture */
+  }
+  .content {
+    display: flex;
+    
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+  }    
+  
+  #content {
+    width: 50%;
+    height: 80%;
+    border: 1px solid black;
+    border-radius: 10px;
+    
+  }
+    
+  .photo {
+    display: flex;
+    
+   
+    align-items: center;
+    justify-content: center;
+  }
+
+
+  .photo-icon {
+    width: 30px;
+    height: 30px;
+    margin-right: 15vh;
+  }
+ 
+  
+
+#photo {
+    margin-top: 10px; /* add some margin to separate the icon from the profile picture */
+    display: flex;
+    justify-content: center;
+    width: 50%;
+   
+}
+
+  .sticky-bar {
+    position: sticky;
+    top: 0;
+    background-color: #333;
+    padding: 10px 0;
+  }
+  
+  .sticky-bar ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .sticky-bar li {
+    margin: 0;
+  }
+  
+  .sticky-bar img {
+    width: 50px;
+    height: 50px;
+  }
+  .divider {
+    border-top: 1px solid #ccc;
+    margin: 20px 0;
+  }
+  .post-div {
+    display: flex;
+    width: 80%;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    border: 1px solid black;
+    border-radius: 10px;
+    
+  }
+  .post {
+    justify-content: center;
+   
+    display: flex;
+   
+    
+  }
+  #post-div {
+    padding: 40px;
+  }
+
+  .photo-icon {
+    width: 30px;
+    height: 30px;
+    margin-top: -15px;
+    margin-right: 30px;
+  }
+  
+  @media (max-width: 480px) {
+    .photo-icon {
+      width: 20px;
+      height: 20px;
+      margin-top: -10px;
+      margin-right: 5px;
+    }
+  }
+  .photo-icon {
+    width: 30px;
+    height: 30px;
+    margin-top: -15px;
+    margin-right: 60px;
+  }
+  
+  @media (max-width: 480px) {
+    .photo-icon {
+      width: 20px !important;
+      height: 20px !important;
+      margin-top: -10px !important;
+      margin-right: 30px !important;
+    }
+  }
+  
+  .fa fa-search {
+    width: 50%;
+    background-color: royalblue;
+  }
+
+  .post2 {
+   
+        justify-content: center;
+       
+        display: flex;
+        width: 40%;
+  }
+  #posts {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+button {
+    background-color: rgb(76, 76, 172);
+    border-radius: 50%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    margin-left: 30%;
+}

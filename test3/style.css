@@ -1,0 +1,91 @@
+
+
+html, body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: 'Chronicle Display';
+  }
+#title {
+    font-size: 48px;
+    font-family: 'Arial', sans-serif;
+    font-weight: bold;
+    color: #3F51B5;
+    text-align: center;
+    margin-top: 50px;
+    
+    text-shadow: 2px 2px #251d20;
+  }
+
+  .title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .text {
+    display: flex;
+    
+  }
+  #text {
+    
+  margin-right: 50px;
+  margin-left: 50px;
+  margin-bottom: 25px;
+  }
+.title2 {
+    display: flex;
+    border: 1px solid #ccc;
+    flex-direction: column;
+    
+
+}
+#title2 {
+    margin-left: 50px;
+}
+.pic1 {
+    display: flex;
+}
+
+#pic1 {
+    width: 100px;
+  height: 100px;
+  object-fit: cover;
+  object-position: center;
+  margin-left: 50px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.bio {
+    margin: 30px;
+}
+
+.swiper-container {
+  width: 10%;
+  height: auto;
+}
+
+.swiper-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  margin-bottom: 30px;
+  width: 50px; /* adjust this value as needed */
+  height: 50px; /* adjust this value as needed */
+  margin-right: 20px;
+  margin-left: 20px;
+  display: block; /* make the image a block-level element */
+  margin: 0 auto; /* center the image horizontally */
+
+}
+
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}

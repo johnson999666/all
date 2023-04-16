@@ -1,0 +1,290 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+
+  }
+html, body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    
+  }
+
+  body {
+    font-size: 12px; /* This sets the base font size to 16 pixels */
+  }
+  
+  h1 {
+    font-size: 2rem; /* This sets the font size to 2 times the base font size */
+  }
+  
+  p {
+    font-size: 1.2rem; /* This sets the font size to 1.2 times the base font size */
+  }
+  
+  body {
+    background-image: linear-gradient(to bottom right, black, white);
+    background-size: 300% 300%;
+    animation: gradient 10s ease infinite;
+  }
+  
+  @keyframes gradient {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+  
+
+.bio {
+    display: flex;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#bio {
+    flex: 1;
+    padding: 30px;
+   
+        background-image: url('backgprofile.jpg');
+        background-size: cover; /* Optional, adjusts the size of the background image */
+        font-size: 1.2rem;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        flex-direction: column;
+        font-family: 'Pacifico', cursive;
+
+      
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+    display: flex;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.profile-img {
+    width: 150px; /* adjust the size of the image as needed */
+    height: 150px;
+    border-radius: 50%;
+    border: 2px solid #fff; /* optional: add a white border */
+    
+  }
+  
+#title {
+    font-size: 2rem; /* This sets the font size to 2 times the base font size */
+    display: flex;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+}
+h1 {
+    color: #333;
+    font-size: 36px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 50px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+    box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.2);
+  }
+
+.js {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 25px;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+  #js {
+    width: 150px; /* adjust the size of the image as needed */
+    height: 150px;
+  }
+
+.js-def {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    margin-left: 25px;
+    margin-right: 25px;
+    
+}
+
+#js-def {
+    font-size: 1.3rem;
+    font-family: Consolas, monospace;
+    
+    font-weight: bold;
+}
+
+.js-skills {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    margin-left: 25px;
+    margin-right: 25px;
+
+}
+#js-skills {
+    font-size: 1.3rem;
+    font-family: Consolas, monospace;
+    
+    font-weight: bold;
+}
+
+.python {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+#python {
+    width: 150px; /* adjust the size of the image as needed */
+    height: 150px;
+}
+
+.python-def {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    margin-left: 25px;
+    margin-right: 25px;
+    background: linear-gradient(to right, #3776AB, #3776AB 50%, #FFD43B 50%, #FFD43B);
+    border-radius: 100px / 70px;
+    
+}
+@font-face {
+    font-family: 'Source Code Pro';
+    src: url('fonts/SourceCodePro-Regular.ttf') format('truetype');
+  }
+#python-def {
+    
+    font-size: 1.2rem;
+    
+    text-align: center;
+    
+    font-family: 'Source Code Pro', monospace;
+
+}
+
+.python-skills {
+    display: flex;
+    
+    margin-top: 50px;
+    margin-left: 25px;
+    margin-right: 25px;
+    background: linear-gradient(to right, #3776AB, #3776AB 50%, #FFD43B 50%, #FFD43B);
+    border-radius: 100px / 70px;
+    
+}
+
+#python-skills {
+    
+    font-size: 1.2rem;
+    
+    
+    
+    font-family: 'Source Code Pro', monospace;
+
+}
+
+.react {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+#react {
+    width: 225px; /* adjust the size of the image as needed */
+    height: 150px;
+}
+@import url('https://fonts.googleapis.com/css?family=Lato&display=swap');
+.react-def {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+#react-def {
+    text-align: center;
+    color: #61dafb;
+    background-color: white;
+    margin-left: 25px;
+    margin-right: 25px;
+    font-family: 'Lato', sans-serif;
+    font-size: 1.2rem;
+    
+    
+}
+.react-skills {
+    display: flex;
+    
+    margin-top: 50px;
+    margin-left: 25px;
+    margin-right: 25px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+#react-skills {
+    
+    color: #61dafb;
+    
+    margin-left: 25px;
+    margin-right: 25px;
+    font-family: 'Lato', sans-serif;
+    font-size: 1.2rem;
+    
+    
+}
+
+
+
+.slideshow {
+    position: relative;
+    width: 100%;
+    height: 300px;
+  }
+  
+  .slide {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+  }
+  
+  .slide.active {
+    opacity: 1;
+  }
+  

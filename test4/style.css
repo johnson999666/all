@@ -1,0 +1,57 @@
+
+
+
+
+
+.myTitle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.myButton1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#myButton1 {
+    width: 200px;
+    height: 200px;
+  margin: 20px;
+  border-radius: 10px;
+  background-color: green;
+}
+#myButton2 {
+    width: 200px;
+  height: 200px;
+    margin: 20px;
+    border-radius: 10px;
+  background-color: red;
+}
+
+
+.myButton2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#myButton3 {
+    width: 200px;
+  height: 200px;
+  margin: 20px;
+  border-radius: 10px;
+  background-color: yellow;
+}
+#myButton4 {
+    width: 200px;
+    height: 200px;
+  margin: 20px;
+  border-radius: 10px;
+  background-color: blue;
+}
+
+
+
